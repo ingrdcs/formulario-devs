@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - INGRIDCS</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="parte-principal">
+            <h2 class="titulo"> Formulário para Devs by IngridCS</h2>
+            <div class="container">
+
+
+
+                <form>
+                    <div class="form-inicial">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+
+                        <label for="idade">Idade(opcional)</label>
+                        <input type="text" id="idade" name="idade" placeholder="Digite sua idade" />
+                    </div>
+
+
+
+                    <div class="form-opcoes-select">
+                        <label>Qual das opções descreve você:</label>
+
+                        <select class="input-select">
+                     <option>Selecione uma opção:</option>
+                     <option>Estudante</option>
+                     <option>Desenvolvedor jr</option>
+                     <option>Desenvolvedor Pleno</option>
+                     <option>Desenvolvedor Sênior</option>
+                     <option>Outros</option>
+
+                 </select>
+                    </div>
+
+
+
+                    <div class="titulo-radio">
+                        <label>Você recomendaria cursos de Programação?</label>
+                    </div>
+                    <div class="opcoes-radio">
+
+                        <input type="radio" name="opcao-recomendacao" value="Sim" />
+                        <label for="opcao-recomendacao">Sim</label>
+                        <input type="radio" name="opcao-recomendacao" value="Não" />
+                        <label for="opcao-recomendacao">Não</label>
+                        <input type="radio" name="opcao-recomendacao" value="Talvez" />
+                        <label for="opcao-recomendacao">Talvez</label>
+                    </div>
+
+
+                    <div class="titulo-select">
+                        <label> Qual sua área de interrese:</label>
+
+                    </div>
+                    <select class="input-select">
+                    
+                      <option>Selecione uma opção:</option>
+                      <option>Desenvolvimento Web</option>
+                      <option>Desenvolvimento Mobile</option>
+                      <option>Front-end</option>
+                      <option>Back-end</option>
+                      <option>Full Stack</option>
+                      <option>Outros</option>
+                </select>
+
+
+                    <div class="titulo-checkbox">
+                        <label>Marque as opções que mais se identifica com você:</label>
+                    </div>
+                    <div class="opcoes-checkbox">
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="html"><label for="html"> HTML5</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="css3"><label for="css3"> CSS3</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="js"><label for="js"> JavaScript</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="py"><label for="py"> Python</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="php"> <label for="php"> Php</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="C"><label for="C"> C</label>
+                        </div>
+
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="CSharp"><label for="CSharp"> C#</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="Ruby"><label for="Ruby"> Ruby</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="C++"> <label for="C++"> C++</label>
+                        </div>
+
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="swift"> <label for="swift"> Swift</label>
+                        </div>
+                        <div class="separa-checkbox">
+                            <input type="checkbox" id="kotlin"> <label for="kotlin"> Kotlin</label>
+                        </div>
+                    </div>
+
+                    <div class="text-area-box">
+                        <label for="ouutros">Outros</label>
+                        <textarea rows="10" id="outros" name="outros"></textarea>
+
+                    </div>
+
+                    <button>Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
